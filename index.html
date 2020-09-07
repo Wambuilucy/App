@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Konga</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container" style="background-color: inherit; padding: 0.5rem">
+            <div class="row" id="logos" style="justify-content: center;">
+                <div class="col-2">
+                    <a href="#"> <img class="w-25" src="images/up1.png" alt="logo"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"> <img class="w-50" src="images/up2.png" alt="logo"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"> <img class="w-50" src="images/up3.png" alt="logo"></a>
+                </div>
+
+                <div class="col-2">
+                    <a href="#"><img class="w-50" src="images/up4.png" alt="logo"></a>
+                </div>
+                <div class="col-2">
+                    <a href="#"><img class="w-25" src="images/up5.png" alt="logo"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ed017f;">
+
+        <a class="navbar-brand" href="#" style="margin-left: 25px;"><img src="images/konga.png" width="100px"
+                alt="Konga Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto" style="font-size: 14px;">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="color: white;">Store Locator<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Help
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="font-size: 14px;">
+                        <a class="dropdown-item" href="#">FAQs</a>
+                        <a class="dropdown-item" href="#">Contact us</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Terms of Use</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" style="font-size: 14px;">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search for products, brand or categories"
+                    aria-label="Search" style="width: 500px; font-size: 14px;">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+                    style="font-size: 14px; background-color: orange; color: white;">Search</button>
+            </form>
+
+            <ul class="navbar-nav mr-auto" style="font-size: 14px;">
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: white;" href="#">Sell on Konga</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="color: white;" href="#">Login/Signup</a>
+                </li>
+            </ul>
+
+            <div style="margin-right: 30px;">
+                <a href="#" class="btn btn-info btn-lg" style="height: 40px; font-size: 12px; background-color: green;">
+                    <span class="glyphicon glyphicon-shopping-cart"></span> My Cart 0
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container-fluid nav2">
+        <ul class="nav nav-justified">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><b>All Categories</b><i class="fa fa-bars"
+                        style="color: white; padding: 0 0.5rem;"></i></a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Computer and Accessories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Phones and Tablets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Electronics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Konga Fashion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home and Kitchen</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Baby, Kids and Toys</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Wines and Other Categories</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div class="container-fluid hiddennav">
+        <div class="row">
+            <div class="col  dropdown">
+                <a class="dropbtn" href="#">
+                    <i class="fa fa-ellipsis-h"></i><br>
+                    <span>Browse All</span></a>
+                <table class="dropdown-content container-fluid" style="width: 90rem; margin: 0 -2rem;">
+                    <tr>
+                        <th style="background-color: #555; width: 90rem;"><a href="#"
+                                style="text-align: center; color: white;"><b>Categories</b></a></th>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Computers and Accessories</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Phones and Tablets</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Electronics</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Konga Fashion</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Home and Kitchen</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Baby, Kids and Toys</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">Wines and Other Categories</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col">
+                <a href="#">
+                    <i class="fa fa-user-o"></i><br>
+                    <span>Fashion</span>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#">
+                    <i class="fa fa-desktop"></i><br>
+                    <span>Computers</span>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#">
+                    <i class="fa fa-mobile"></i><br>
+                    <span>Phones</span>
+                </a>
+            </div>
+            <div class="col">
+                <a href="#">
+                    <i class="fa fa-tag"></i><br>
+                    <span>All Deals</span></a>
+            </div>
+        </div>
+    </div>
+
+    <!----Carousel section-------->
+    <div class="container-fluid d-lg-flex carousel-container-length">
+        <!-- Carousel Container -->
+        <div id="carouselimages" class="carousel slide carousel-container" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselimages" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselimages" data-slide-to="1"></li>
+                <li data-target="#carouselimages" data-slide-to="2"></li>
+                <li data-target="#carouselimages" data-slide-to="3"></li>
+                <li data-target="#carouselimages" data-slide-to="4"></li>
+                <li data-target="#carouselimages" data-slide-to="5"></li>
+                <li data-target="#carouselimages" data-slide-to="6"></li>
+                <li data-target="#carouselimages" data-slide-to="7"></li>
+            </ol>
+            <div class="carousel-inner bd-radius">
+                <div class="carousel-item active">
+                    <a href="https://www.konga.com/content/nivea?utm_source%3Dweb%26utm_medium%3Dbanner%26utm_campaign%3DNivea&sa=D&source=hangouts&ust=1596092451868000&usg=AFQjCNENLdmWwRIrafXuZDDTXrwG4KjH8g"
+                        target="_blank" rel="noopener noreferrer"><img src="images/carousel2.jpg"
+                            class="d-block w-100 img-styling" alt="Nivea"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.konga.com/content/eid_sales_&sa=D&source=hangouts&ust=1595518854535000&usg=AFQjCNFI-8gce9JgQDrmfk1hG8XmgdaWAQ"
+                        target="_blank" rel="noopener noreferrer"><img src="images/carousel1.jpg"
+                            class="d-block w-100 img-styling" alt="Konga Eid Sales"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.konga.com/search?search=DurexRb%20Launch" target="_blank"
+                        rel="noopener noreferrer"><img src="images/carousel3.jpg" class="d-block w-100 img-styling"
+                            alt="Durex"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.konga.com/merchant/coca-cola-nbc-store" target="_blank"
+                        rel="noopener noreferrer"><img src="images/carousel4.jpg" class="d-block w-100 img-styling"
+                            alt="Eva"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://bit.ly/directfromsamsung" target="_blank" rel="noopener noreferrer"><img
+                            src="images/carousel5.jpg" class="d-block w-100 img-styling" alt="Samsung"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.google.com/url?q=https://www.konga.com/search?search%3Dhp%2520probookxz&sa=D&source=hangouts&ust=1595937787174000&usg=AFQjCNEYSHZnv3Uv3s4mlfuYu2ZnPwnkIg"
+                        target="_blank" rel="noopener noreferrer"><img src="images/carousel6.jpg"
+                            class="d-block w-100 img-styling" alt="HP"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://bit.ly/2YPbrAn" target="_blank" rel="noopener noreferrer"><img
+                            src="images/carousel7.jpg" class="d-block w-100 img-styling"
+                            alt="Intel Core Processors"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://www.konga.com/search?search=fruttaxzg" target="_blank"
+                        rel="noopener noreferrer"><img src="images/carousel8.jpg" class="d-block w-100 img-styling"
+                            alt="Frutta Juice"></a>
+                </div>
+            </div>
+            <a href="#carouselimages" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a href="#carouselimages" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Ads Container -->
+        <div class="d-lg-flex d-flex flex-wrap ads-wrapper">
+            <div class="ads-container">
+                <a target="_self" href="https://www.konga.com/content/mobile-apps"><img src="images/ads1.jpg"
+                        class="bd-radius" alt="Mobile App Download"></a>
+            </div>
+            <div class="ads-container">
+                <a href="https://bit.ly/directfromsamsung" target="_blank" rel="noopener noreferrer"><img
+                        src="images/ads2.jpg" class="bd-radius" alt="Return Policy"></a>
+            </div>
+            <div class="ads-container">
+                <a href="https://www.konga.com/content/Now-On-Konga2" target="_self"><img src="images/ads3.gif"
+                        class="bd-radius" alt="Official Stores"></a>
+            </div>
+            <div class="ads-container">
+                <a href="https://www.konga.com/content/eid_sales_&sa=D&source=hangouts&ust=1595518854535000&usg=AFQjCNFI-8gce9JgQDrmfk1hG8XmgdaWAQ"
+                    target="_blank" rel="noopener noreferrer"><img src="images/ads4.gif" class="bd-radius"
+                        alt="Konga Pay"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bottom-icons-container d-none d-lg d-lg-flex justify-content-between">
+        <div class="bg">
+            <img src="images\down1.png">
+        </div>
+        <div class="bg">
+            <img src="images\down2.png">
+        </div>
+        <div class="bg">
+            <img src="images\down3.png">
+        </div>
+        <div class="bg">
+            <img src="images\down4.png">
+        </div>
+        <div class="bg">
+            <img src="images\down5.png">
+        </div>
+        <div class="bg">
+            <img src="images\down6.png">
+        </div>
+    </div>
+
+</div>
+</div>
+
+<!--group 2-->
+<article class="container-fluid">
+<main class="row">
+
+
+
+      <!--recommend-->
+
+      <section class="recommend col-12 mx-auto d-flex flex-row flex-wrap justify-content-start py-3 pl-2" style="background :#fff;min-width:100%">
+
+        <h2 class="font-weight-bolder  mr-5 recommend-header text-dark">Recommended for you</h2>
+
+        <a href="" class="d-inlne recommend recommend-link text-decoration-none  font-weight-bolder" style="color:#FF5F5F;font-size:1.5rem">See all items </a>
+
+      </section>
+
+      
+
+      <!--laptops-->
+
+      <section class="laptop bg-muted d-flex flex-row flex-wrap justify-content-center align-content-center mb-2 col-12 mx-auto p-1 mt-1" style="background:#fff;">
+
+        <!--my stuff-->
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2 ">
+
+          <img class="d-inline  col-12 col-md-4" src="images/3D Wall.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Adore Choc 3D Wall</h5>
+
+              <p class="card-text m-0 para">Panel</p>
+
+              <p class="card-text m-0 amount font-weight-bold ">&#8358;10,000</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row  my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/second-3D-wall.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Excellent Wall Decor, 3D Wall</h5>
+
+              <p class="card-text m-0 para">Wall Pa... </p>
+
+              <p class="card-text m-0 amount font-weight-bold ">&#8358;3,999</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/bedding-set.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Modern Bed Set</h5>
+
+              <p class="card-text m-0 para font-weight-bold ">&#8358;200,000 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;350,000</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;150,000</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/mytv.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Elegance Floating Wall Tv Stand... </h5>
+
+              <p class="card-text font-weight-bold m-0 para">&#8358;44,999 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;70,000</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You can save &#8358;25,001</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/myellow.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0 " style="font-size :1rem">3D DIY Mirror Circle Wall Clock... </h5>
+
+              <p class="card-text m-0 para font-weight-bold ">&#8358;4,200 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;15,000</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You can save &#8358;150,000</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2 ">
+
+          <img class="d-inline  col-12 col-md-4" src="images/mysnk.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Black And Grey Versace Design Wa... </h5>
+
+              <p class="card-text m-0 amount font-weight-bold ">&#8358;6,900</p>
+
+           </div>
+
+        </div>
+
+        
+
+        <!--my stuff ends -->
+
+        
+
+      </section>
+
+      
+
+      <!--laptops-->
+
+      <section class="kayla  row  mx-auto p-3  " style="">
+
+        <div class="kayla-pix bg-white d-inline col-10 col-md-4 col-lg-2  p-0 mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3 ">Kayla store </h6>
+
+          <img src="images/kayla1.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height:auto">
+
+        </div>
+
+        <div class="kayla-pix bg-white d-inline col-10 col-md-4 col-lg-2 p-0 mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3 ">Joveclothiers </h6>
+
+          <img src="images/kayla2.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height:auto ">
+
+        </div>
+
+        <div class="kayla-pix bg-white d-inline col-10 col-md-4 col-lg-2 p-0 mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3">Bags </h6>
+
+          <img src="images/kayla3.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height :auto ">
+
+        </div>
+
+        <div class="kayla-pix bg-white d-inline col-10 col-md-4 col-lg-2 p-0 mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3">Revlon Makeup</h6>
+
+          <img src="images/kayla4.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height :auto ">
+
+        </div>
+
+        <div class="kayla-pix bg-white d-inline  col-10 col-md-4 col-lg-2 p-0 mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3">Little Angels </h6>
+
+          <img src="images/kayla5.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height :auto ">
+
+        </div>
+
+        <div class="kayla-pix bg-white d-inline  col-10 col-md-4 col-lg-2 p-0  mx-auto my-2">
+
+          <h6 class="kayla-pix-header font-weight-bold text-dark pt-1 pl-3">Baby Essential </h6>
+
+          <img src="images/kayla6.JPG" alt="kayla bag" class=" kayla-pix-img img-fluid" style="height :auto ">
+
+        </div>
+
+      </section>
+
+      
+
+      <!--last parts-->
+
+       <!--recommend-->
+
+      <section class="recommend col-12 mx-auto d-flex flex-row flex-wrap justify-content-start py-3 pl-2" style="background :#fff;min-width:100%">
+
+        <h2 class="font-weight-bolder  mr-5 recommend-header text-dark">Latest Deals </h2>
+
+        <a href="" class="d-inlne recommend recommend-link text-decoration-none  font-weight-bolder" style="color:#FF5F5F;font-size:1.5rem">See all items </a>
+
+      </section>
+
+      
+
+      <!--laptops-->
+
+      <section class="laptop bg-muted d-flex flex-row flex-wrap justify-content-center align-content-center mb-2 col-12 mx-auto p-1 mt-1" style="background:#fff;">
+
+        <!--my stuff-->
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2 ">
+
+          <img class="d-inline  col-12 col-md-4" src="images/nvidia.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">HP Notebook 15 Intel Celeron N30... </h5>
+
+              <p class="card-text m-0 amount font-weight-bold ">&#8358;97,300 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;16,960</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;19,660</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row  my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/drinks.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Power Horse Energy Drink - 250ml...</h5>
+
+              <p class="card-text m-0 amount font-weight-bold ">&#8358;8,640 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;9,600</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;960</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/wireless.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Unique Rechargeable Wireless Mou... </h5>
+
+              <p class="card-text m-0 para font-weight-bold ">&#8358;3,500 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;6,500</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;3,000</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/konga Ac.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0" style="font-size :1rem">Gree Split Unit Ac - 1hp With Stan... </h5>
+
+              <p class="card-text font-weight-bold m-0 para">&#8358;126,000 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;146,000</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You save &#8358;20,000</p>
+
+           </div>
+
+        </div>
+
+        
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/konga fridge.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0 " style="font-size :1rem">Royal 385 Litres Chest Freezer-... </h5>
+
+              <p class="card-text m-0 para font-weight-bold ">&#8358;175,000 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;198,156</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;23,056</p>
+
+           </div>
+
+        </div>
+
+        <div class="laptop-div d-flex flex-row my-2 flex-wrap align-content-center col-10 mx-auto col-md-4 p-2">
+
+          <img class="d-inline  col-12 col-md-4" src="images/konga drink.jpg" alt="" />
+
+          <div class="card-body align-self-center col-12 col-md-8 ">
+
+              <h5 class=" m-0 " style="font-size :1rem">Tommy Cranberry Drink - 330ml (Di... </h5>
+
+              <p class="card-text m-0 para font-weight-bold ">&#8358;4,200 <wbr><small class="text-muted" style="text-decoration: line-through; font-size: 0.85rem;">&#8358;5,200</small></wbr></p>
+
+              <p class="card-text m-0 amount" style="color:green">You  save &#8358;1,000</p>
+
+           </div>
+
+        </div>
+
+       
+
+        
+
+        <!--my stuff ends -->
+
+        
+
+      </section> 
+
+    </main>
+    </article>
+    
+<!-- js script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
